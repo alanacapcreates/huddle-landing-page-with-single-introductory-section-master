@@ -18,7 +18,7 @@ body{
     max-width: 100vw;
     font-family: 'Open Sans', sans-serif;
     background: var(--Violet) top no-repeat url('./images/bg-mobile.svg');
-    background-size: contain;
+    background-size: cover;
     color: #fff;
     font-size: 1em;
     line-height: 1.5;
@@ -44,6 +44,8 @@ main{
     grid-auto-columns: 1fr; 
     grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr; 
+    max-width: 1200px;
+    margin: 0 auto;
 }
 button{
     width: 250px;
